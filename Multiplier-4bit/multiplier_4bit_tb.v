@@ -11,20 +11,20 @@ module multiplier_4bit_tb;
 	endtask
 	//dut
 	multiplier_4bit dut(.A(A),.B(B),.P(P));
-  initial begin 
-	monitor();
-  A=4'd5;  B=4'd11;
-	#10;
-  A=4'd7;  B=4'd15;
-	#10;
-  A=4'd10; B=4'd12;
-	#10;
-  A=4'd13; B=4'd2;
-  #10;
-	A=4'd10; B=4'd5;
-  #10;
-	A=4'd10; B=4'd4;
-	#25;	
-  $finish;	
-  end 
+  	initial begin 
+		monitor();
+  		A=4'd5;  B=4'd11;
+		#10;
+  		A=4'd7;  B=4'd15;
+		#10;
+  		A=4'd10; B=4'd12;
+		#10;
+  		A=4'd13; B=4'd2;
+  		#10;
+		A=4'd10; B=4'd5;
+  		#10;
+		A=4'd10; B=4'd4;
+		#25;	
+  		$finish;	
+  	end 
 endmodule : multiplier_4bit_tb
