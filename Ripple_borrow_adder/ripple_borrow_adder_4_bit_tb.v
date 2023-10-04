@@ -9,10 +9,10 @@ wire [3:0]diff;//output port
 
 //dut
 ripple_borrow_adder_4_bit dut(.a(a),
-															.b(b),
-															.b_in(b_in),
-															.diff(diff),
-															.borrow(borrow));
+			      .b(b),
+			      .b_in(b_in),
+			      .diff(diff),
+			      .borrow(borrow));
 						 
 		//initialization
 			initial begin
