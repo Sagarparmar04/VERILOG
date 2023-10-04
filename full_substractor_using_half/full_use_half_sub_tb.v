@@ -6,10 +6,10 @@ wire diff,borrow;//output port
 
 //dut
 full_use_half_sub dut(.a(a),
-						 .b(b),
-						 .c(c),
-						 .diff(diff),
-						 .borrow(borrow));
+		      .b(b),
+		      .c(c),
+		      .diff(diff),
+		      .borrow(borrow));
 						 
 		//initialization
 			initial begin
