@@ -6,9 +6,9 @@ wire diff,borrow;//output port
 
 //dut
 half_sub dut(.a(a),
-						 .b(b),
-						 .diff(diff),
-						 .borrow(borrow));
+	     .b(b),
+	     .diff(diff),
+	     .borrow(borrow));
 						 
 		//initialization
 			initial begin
