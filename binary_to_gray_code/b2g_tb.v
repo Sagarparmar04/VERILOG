@@ -13,9 +13,9 @@ module b_to_g_tb;
 	
 	//initilization
 	initial begin
-	    monitor();
+	    	monitor();
 		repeat(10)begin
-		 #10 binary = $random;
+		#10 binary = $random;
 		end
 		#10;
 		$finish;
