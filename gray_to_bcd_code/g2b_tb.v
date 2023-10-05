@@ -13,12 +13,12 @@ module g_to_b_tb;
 	
 	//initilization
 	initial begin
-	monitor();
-     repeat(10)begin
-        #10 gray = $random;
-     end
-     #100;
-     $finish;
+		monitor();
+     		repeat(10)begin
+        	#10 gray = $random;
+     		end
+     		#100;
+     		$finish;
 	end
 	       
 endmodule 
